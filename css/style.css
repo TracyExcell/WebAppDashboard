@@ -1,0 +1,585 @@
+/***************************
+Global Styles 
+*************************/ 
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+    color: grey;
+}
+
+* { 
+    font-family: 'Open Sans', sans-serif;
+}
+/*************************
+ Header Styles 
+*************************/
+
+#header {
+    height: 70px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header h1 {
+    font-size: 1.5em;
+    margin-left: -5px;
+    color: white;
+    
+}
+
+#nav {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+
+    } 
+
+#header p {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+#header img {
+   display: none;
+}
+
+
+.bellIcon {
+    height: 20px;
+    width: 20px;  
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+#Layer_7 {
+     position: relative;
+}
+
+.bellStar {
+    color: white;
+    position: absolute;
+    top: 3%;
+    right: 41.5%;
+}
+
+#header h1 {
+    font-weight: 100;
+}
+
+strong {
+    font-weight: 800;
+}
+
+
+/*************************
+ Dashboard Search Styles 
+*************************/
+
+#dashboardSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#dashboardSearch h1 {
+    font-size: 1em; 
+   
+}
+
+#dashboardSearch input {
+    width: 150px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin: 10px;
+   
+}
+
+#search {
+    position: relative;
+}
+
+
+#mag-glass {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 165px;
+    right: 25px;
+    z-index: 33;
+}
+
+#rectangle {
+    display: none;
+}
+
+
+
+/*************************
+ SideBar Styles 
+*************************/
+#sidebarContainer {
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.sideIcon {
+    margin-top: 20px;
+    height: 30px;
+    width:30px;
+    
+}
+
+
+/*************************
+ Chart Styles 
+*************************/
+
+#graphContainer {
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+h1 {
+    font-size: .7em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#myLineChart {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#barGraph {
+  height: 300px;
+   margin-bottom: 50px;
+}
+
+#DoughnutChart { 
+ height: 250px;
+  
+   }
+
+#trafficButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+.t-buttons {
+    height: 20px;
+    color: grey;
+    font-size: .7em;
+    margin-right:20px;
+    margin-top: 20px;
+    padding-bottom: 3px;
+    border: none;
+    background-color: white;
+    outline: none; 
+}
+
+
+
+.t-buttons:hover {
+    color: white;
+    background-color: #32CD32;
+    border: 1px solid #32CD32;
+    border-radius: 25px;
+   
+}
+
+
+/*************************
+Social Stats styles 
+*************************/
+
+#socialStats h1 {
+    margin-top: 50px;
+}
+
+.socialContainer {
+    height: 150px;
+    border: 1px solid darkgrey;
+    background-color: #d1e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: #7277be;
+    border-radius: 100%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 99;
+}
+
+.socialContainer .socialIcon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 10%;
+    top: 41%;
+    z-index: 100;
+}
+
+
+.socialContainer h3 {
+    color: #7277be;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+}
+
+.socialContainer p {
+    color: darkgrey;
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    
+   
+}
+
+
+
+/*************************
+New Members Styles 
+*************************/
+#memberContainer {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;      
+}
+
+
+.member {
+    height: 150px;
+    width: 300px;
+    border-bottom: 1px solid grey;   
+}
+
+.member img {
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.member h1 {
+    margin-top: 10px;
+      
+}
+
+#member1 h1 {
+    margin-left: -5px;
+}
+
+#member1a h1 {
+    margin-left: -5px;
+}
+
+.member h2, h3, h4 {
+    font-size: .7em;
+    
+}
+
+.member h3 {
+    color: #0084b4;
+}
+
+.member h4 {
+    margin-bottom: 10px;
+  
+}
+
+
+.b h4 {
+    color: #0084b4;
+    font-size: 1.2em;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+    
+}
+
+.container1 {
+    height: 180px;
+}
+
+
+/*************************
+Message User Styles
+*************************/
+
+
+
+#messageUser{
+    height: 500px;
+    width: 320px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#messageUser h1 {
+   margin-left: 10px;
+}
+
+#messageUser input {
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border: solid 1px grey;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color:  #d1e0e0;
+    
+}
+
+#messageUser textarea {
+    height: 100px;
+    width: 280px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color:  #d1e0e0;
+    margin-bottom: 20px;
+    
+}
+
+#messageUser button {
+    height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color:  #0084b4;
+    color: white;
+   
+}
+
+
+
+
+ 
+/**** THE TOGGLE SWITCHES ****/
+
+
+
+#profile-toggle, #email-toggle {
+    display: block; 
+    
+}
+
+#toggle-element1, #toggle-element2 {
+    height: 30px;
+    width: 100px; 
+    padding: 10px;
+}
+    
+    
+    
+/*************************
+Setings Styles
+*************************/
+
+#settings {
+ height: 500px;
+ width: 320px;
+ display: flex;
+ flex-direction: column;
+ margin-left: 20px;
+ margin-top: -230px;
+}
+
+#settings h1 {
+    margin-left: -5px;
+}
+
+
+.settingsButton {
+    height: 40px;
+    width: 280px;
+    border: none;
+    border: 1px solid #0084b4;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color:  #0084b4;
+    color: white;
+      
+}
+
+.settingsButton:hover, #sendButton:hover {
+    background-color: mediumpurple;
+}
+
+
+#settings select {
+    margin-top: 20px;
+    height: 40px;
+    width: 280px;
+}
+
+
+.settingsButton {
+    margin-top: 20px;
+    border: none;
+   
+}
+
+input, textarea, select {
+  color: grey;
+  text-align: left;
+  font-style: italic;  
+  font-size: .9em;
+    }
+    
+
+::-webkit-input-placeholder {
+	text-align: left;
+	font-style: italic;
+	padding-right: 5px;
+	font-size: .9em;
+}
+
+::-moz-placeholder { /*firefox*/
+	text-align: left;
+	font-style: italic;
+	padding-right: 5px;
+	font-size: .9em;
+}
+
+::-ms-input-placeholder { /*IE + Edge*/
+	text-align: left;
+	font-style: italic;
+	padding-right: 5px;
+	font-size: .9em;
+}
+
+textarea::-webkit-input-placeholder {
+	padding-top: 10px;
+	padding-left: 0px;
+	text-align: left;
+	font-size: .9em;
+}
+
+textarea::-moz-placeholder { /*firefox*/
+	text-align: left;
+	font-size: .9em;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+textarea::-ms-input-placeholder { /*IE + Edge*/
+	text-align: left;
+	font-size: .9em;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+/*************************
+ Altert box Styles 
+*************************/
+#alertBox {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 280px;
+    outline: none;
+    border: 1px solid #0084b4;
+    border-radius: 6px;
+    margin: 0 20px;
+    background-color:  #0084b4;
+    color: white;
+}
+
+#alertBox p {
+   font-size: .75em;
+    margin-left: 20px;
+}
+
+.cross {
+    position: absolute;
+    color: white;
+    top: 0%;
+    right: 2%;
+    font-weight: 800;
+    
+}
+
+strong {
+    font-weight: 900;
+}
+
+.alertText {
+    display: none;
+    display:block;
+    position:relative;
+    margin: 0 20px;
+    z-index: 98;
+    height: 150px;
+    width: 250px;
+    background-color: red;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid green;
+    border-radius: 25px;
+}
+
+.alertText p {
+    padding: 20px;
+}
+
+#sentCross, #sentCross2 {
+    position: absolute;
+    top: -35px;
+    right: -10px;
+}
+
+#emptyAlertText {
+    background-color: green;
+}
+
+#sendAlertText {
+    border:  1px solid red;
+}

@@ -1,0 +1,831 @@
+/*********************************
+ Media Queries Tablet Screen Size
+***********************************/
+
+@media (min-width:768px){
+    
+
+#header h1 {
+        align-self: flex-start;
+        font-size: 2em;
+        
+    }
+    
+    
+#header img {
+   display: inline-flex;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin: 10px;
+      
+}
+    
+.bellIcon {
+    height: 30px;
+    width: 30px;  
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+    
+.bellStar{
+    top: 2%;
+    right: 34%;
+    height: 30px;
+    width: 30px;
+    }
+  
+/*************************
+Dashboard Styles
+*************************/   
+    
+#dashboardSearch h1 {
+    align-self: flex-start;
+    
+}
+
+#dashboardSearch input {
+    width: 400px;
+    height: 50px;
+
+}
+    
+#mag-glass {
+    right: 80px;
+}
+    
+
+/*************************
+ Altert box Styles 
+*************************/
+#alertBox {
+    width: 640px;
+    margin-left: 70px;
+    margin-right: 0;
+    
+}
+    
+    
+.alertText {
+    display: none;
+    display:block;
+    margin: -350px 0 100px 100px;
+    position:relative;
+    z-index: 98;
+    height: 200px;
+    width: 500px;
+    background-color: red;
+    text-align: center;
+    font-size: 2em;
+    border: solid 1px green;
+    border-radius: 25px;
+}
+
+
+ /*************************
+ Chart Styles 
+*************************/
+
+#graphContainer {
+    width: 730px;
+    margin-left: 20px;
+
+}
+    
+    
+#trafficButtons h1 {
+        align-self: flex-start;
+        margin-right: 350px;
+    }
+    
+    
+#trafficButtons p {
+   align-self: flex-end;
+    font-size: 1em;
+}
+    
+
+/*************************
+ Social Stats Styles 
+*************************/
+#socialStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 730px;
+    margin: 0 20px;
+       
+    }
+    
+ #socialStatsh1 {
+    margin-left:  40px;
+    }
+
+.socialContainer {
+    height: 100px;
+    width: 250px;
+   
+}
+
+.circle {
+    background-color: #7277be;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 4%
+}
+
+.socialContainer .socialIcon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 12%;
+    top: 40%;
+}
+
+
+.socialContainer h3 {
+    font-size: 1em;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    
+}
+
+.socialContainer p {
+    font-size: 2em; 
+    margin-left: 10px;
+    
+}
+    
+/*************************
+New Members Styles 
+*************************/
+#memberContainer {
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 40px;         
+}
+
+
+#newMembers, #recentActivity {
+    width: 365px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    }
+
+/*************************
+Message User Styles
+*************************/
+ #buttonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 730px;
+    margin: 0 20px;
+        
+    }
+    
+#messageUser{
+    
+    margin-top: 30px;
+
+}
+
+#messageUser h1 {
+   margin-left: 5px;
+}
+
+#messageUser input {
+   width: 300px;
+    
+}
+
+#messageUser textarea {
+    height: 245px;
+    width: 300px;
+    
+}
+
+#messageUser button {
+    width: 300px;
+   
+}
+
+
+/*************************
+Setings Styles
+*************************/
+
+#settings {
+ width: 350px;
+ margin-top: 30px;
+ margin-right: 20px;
+ margin-bottom: 0;
+
+}
+
+#settings h1{
+    margin-left: 5px;   
+    }
+
+#settings select {
+    width: 300px;
+}
+
+.settingsButton {
+    margin-top: 20px;
+    width: 300px;
+}
+
+}
+
+
+
+/*********************************
+ Media Queries i pad pro Screen Size
+***********************************/
+
+@media (min-width: 1024px){  
+
+
+    
+.bellStar {
+    right: 32%;
+    top: 1%;
+    }
+
+#mag-glass {
+     top: 165px;
+    right: 150px;
+}
+    
+ #socialStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    margin-left: 40px;
+}
+
+#alertBox {
+     width: 900px;
+    }
+    
+ #graphContainer, #socialStats, #memberContainer, #buttonBox {
+    width: 900px;
+    margin-left: 40px;
+        
+    }   
+    
+ #recentActivity h1 {
+        margin-left: 20px;
+    } 
+    
+ .member {
+        width: 450px;
+    }
+    
+ .b {
+        border-left: solid 1px grey;
+    }
+    
+.b img, h2, h3 {
+        margin-left: 20px;
+    }
+       
+#buttonBox {
+        justify-content: space-around;
+    } 
+    
+
+    
+    }
+
+
+/*********************************
+ Media Queries For Large Screen Size
+***********************************/
+
+@media (min-width: 1280px){  
+    
+    
+/*************************
+ Header Styles 
+*************************/
+
+#header p {
+    font-size: 1.5em;
+    
+}
+
+#header img {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+.bellIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 700px;
+}
+
+
+.bellStar {
+    color: white;
+    position: absolute;
+    top: 1%;
+    right: 20%;
+}
+
+/*************************
+ SideBar Styles 
+*************************/
+
+#sidebarContainer {
+    position: relative;
+    min-height: 2600px;
+    width: 70px;
+    background-color: cadetblue;
+     
+}
+    
+#wrapper {
+      width: calc(100vw - 70px);  
+      display: block;
+      margin: auto;
+      margin-top: -2550px;
+      margin-left: 0px;
+    }
+    
+.sideIcon {
+        position: absolute;
+    }
+    
+ .bell1 {
+        top: 0;
+        left: 30%;
+    }
+    
+ .bell2 {
+        top: 3%;
+        left: 30%;
+    }
+    
+ .bell3 {
+        top: 6%;
+        left: 30%;
+    }
+    
+ .bell4 {
+        top: 9%;
+        left: 30%;
+    }
+
+ 
+/*************************
+ Dashboard Search Styles 
+*************************/
+
+#dashboardSearch {
+    width: calc(100vw - 70px);
+    height: 70px;
+    margin: 0;
+    position: relative;
+}
+
+#rectangle {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 1030px;
+    top: -50px;
+    right: -100px;
+    border: solid 1px grey;
+    
+    }
+    
+
+
+#dashboardSearch h1 {
+    font-size: 1.5em; 
+    margin-left: 80px;
+    margin-top: -10px;
+    
+}
+
+#dashboardSearch input {
+    width: 700px;
+    height: 55px;
+    margin-left: 300px;  margin-right: -30px;
+    margin-top: -20px;
+    z-index: 5;
+}
+    
+    
+#mag-glass {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+
+
+
+    
+/*************************
+ Altert box Styles 
+*************************/
+#alertBox {
+    width: 1130px;
+    margin-left: 100px;
+    align-self: center;
+    margin-right: 0;
+    
+}
+
+.cross {
+    right: 1%;  
+}
+
+    
+.alertText {
+    height: 300px;
+    width: 1000px;
+    font-size: 3em;
+    margin: -650px 0 100px 100px;
+   
+}  
+
+.alertText p {
+    padding: 25px;
+}    
+
+#sentCross, #sentCross2 {
+    top: -50px;
+    right: -2px;
+}
+
+ /*************************
+ Chart Styles 
+*************************/
+
+#graphContainer {
+    width: 1210px;
+    padding-left: 30px;
+}
+    
+#trafficButtons h1 {
+    font-size: 1em;
+    margin-right: 700px;
+    }
+    
+
+#trafficButtons button {
+    font-size: 1em;
+}
+   
+#lineGraph {
+  width: 1150px;
+ margin-right: 20px;
+    }
+    
+ #flexChartContainer {
+    width: 1210px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     border-top:  solid 1px grey;
+     border-bottom: solid 1px grey;
+     
+    }
+    
+#flexChartContainer h1 {
+        padding: 15px;
+    }
+    
+#DoughnutChart {
+
+     height: 400px;
+     width: 500px;
+     padding-bottom: 50px;
+    
+    }
+
+#barGraph {
+    height: 450px;
+    width: 600px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: 30px;  
+    border-right: solid 1px grey;
+  
+    }
+  
+/*************************
+ Social Stats Styles 
+*************************/
+ #socialStatsh1 {
+    margin-left: 150px;
+    font-size: 1em;
+        
+    }
+
+#socialStats {
+  justify-content: space-around;
+  width: 1210px;
+  margin-bottom: 50px;
+    }
+
+.socialContainer {
+    height: 130px;
+    width: 350px;
+   
+}
+    
+#twitterBox {
+        margin-left: 100px;
+    }
+
+.circle {
+   width: 70px;
+   height: 70px;
+   top: 25%;
+   left: 4%
+}
+
+.socialContainer .socialIcon {
+    height: 40px;
+    width: 40px;
+    left: 8%;
+    top: 37%;
+}
+
+
+.socialContainer h3 {
+    font-size: 1.5em;
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    
+}
+
+ .socialContainer p {
+    font-size: 2.5em; 
+    left: 27%;
+}
+
+    
+/*************************
+New Members Styles 
+*************************/
+
+#memberContainer {
+    width: 1210px;
+    flex-direction: row;
+    justify-content: center; 
+    margin-left: 80px;
+}
+
+#newMembers, #recentActivity {
+    width: 600px;
+    border-top: solid 1px grey;
+   
+    }
+
+
+.member {
+    height: 150px;
+    width: 640px; 
+    position: relative;
+}
+
+.member img {
+    height: 50px;
+    width:  50px;
+}
+
+.member h1 {
+    font-size: 1em;
+    margin-top: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.member h2, h3, h4 {
+    font-size: 1em;
+    
+}
+
+.member h4 {
+   position: absolute;
+   top: 15%;
+   right: 15%;
+  
+}
+    
+#member1 h4 {
+   position: absolute;
+   top: 30%;
+   right: 15%;
+  
+}
+
+
+.b h4 {
+    position: absolute;
+    top: 85%;
+    right: 13%;
+    
+}
+
+.container1 {
+     height: 200px;   
+    }
+
+/*************************
+Message User Styles
+*************************/
+ 
+#buttonBox {
+     justify-content: space-around; 
+     width: 1210px;    
+    }
+    
+#messageUser {
+    width: 550px;
+    margin-left: 84px;
+    margin-top: -50px;
+    border-right: solid 1px grey;
+
+    }
+
+#member1a h1 {
+    margin-left: 10px;    
+    }
+    
+#messageUser h1 {
+    margin-top: 30px;
+    font-size: 1em;
+    }
+    
+#messageUser input {
+   width: 500px;
+   margin-right: 150px;
+    
+}
+
+#messageUser textarea {
+    height: 135px;
+    width: 500px;
+    padding-left: 50px;
+    
+}
+
+
+
+#messageUser button {
+    width: 500px;
+    padding-left: 50px;
+   
+}
+
+   
+/*************************
+Setings Styles
+*************************/
+
+#settings {
+ width: 550px;
+ margin-right: -50px;
+ 
+}
+    
+#settings h1 {
+    margin-top: -50px;
+    font-size: 1em;
+    
+    }
+
+#settings select {
+    width: 500px;
+    margin-bottom: 30px;
+}
+    
+
+.settingsButton {
+    width: 230px;
+    display: inline-block;
+   
+}
+
+.button2 {
+    margin-left: 30px;
+    }
+    
+#email-toggle, #profile-toggle {
+        display: inline-block;
+    }
+    
+.switch-light {
+       float: right; 
+       margin-top: -40px;
+       margin-right: 200px;
+    }
+    
+}
+
+
+
+/*********************************
+ Media Queries For Large Screen Size 1440
+***********************************/
+
+@media (min-width: 1440px){  
+    
+/*************HEADER *************/
+#rectangle {
+    width: 1100px;
+    }
+
+.bellStar {
+    right: 21%;
+    top: 1%;
+    }
+    
+/*************DASHBOARD *************/
+#dashboardSearch input {
+    width: 830px;
+    }
+   
+#mag-glass {
+        right: 40px;
+    }
+    
+/*************ALERT BOX*************/
+#alertBox {
+    width: 1280px;
+   
+    }
+/*************GRAPHS*************/
+
+#trafficButtons h1 {
+  
+    margin-right: 900px;
+    }
+
+
+ #DoughnutChart {
+        margin-right: 200px;
+    }
+
+#lineGraph {
+      width: 1350px;  
+    }
+/*************CONTAINERS *************/
+
+ #socialStats, #graphContainer, #flexChartContainer, #buttonBox, #memberContainer {
+     margin-left: 10px;
+     padding-left: 50px;
+     margin-right: 20px;
+     width: 1370px;
+     
+    }
+
+/*************BUTTON BOX STYLES *************/    
+  
+ #messageUser, #settings {
+      width: 665px;  
+    }
+    
+ #messageUser {
+     padding-left: 55px;
+     margin-left: 0;
+  
+     
+    }
+
+
+#settings {
+ margin-right: 0px;
+ 
+} 
+    
+    
+    }
+
+    
